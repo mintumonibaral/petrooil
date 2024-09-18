@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* =========Common CSS Start========= */
+
+ul, ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+
+
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+ 
+   
+}
+/* =========Common CSS End========= */
+
+
+/* =======Navbar Part Start======= */
+
+nav{
+    background: red;
+    padding: 27px 0px;
+}
+
+.logo{
+    width: 20%;
+  
+}
+.menubar{
+    width: 60%;
+ display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.button{
+    width: 20%;
+}
+  
+.menubar ul{
+    display: flex;
+    column-gap: 47px;
+    justify-content: center;
+    font-family: "Poppins", system-ui;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    align-items: center;
+    cursor: pointer;
+
+}
+.menubar ul li{
+    transition: 0.5s;
+}
+.menubar ul li:hover{
+color: black;
+}
+
+.button a{
+    font-family: "Poppins", system-ui;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    border: 1px solid white;
+    padding: 14px 32px;
+    display: inline-block;
+    transition: 0.8s;
+
+   
+}
+.button a:hover{
+    background: #15ea5f;
+}
+
+/* =======Navbar Part End======= */
